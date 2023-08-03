@@ -58,7 +58,11 @@ clip < ~/.ssh/id_ed25519.pub //# Copies the contents of the id_ed25519.pub file 
 
 git pull origin main --allow-unrelated-histories
 
-git push -u origin main // push local repostiroy to remote 
+git push -u origin main // push local repostiroy to remote / push branch to remote
+
+git push origin test-1:learning-git // add local branch to remote
+
+git branch -d to-delete // delete branch
 
 git branch -r // see what branch yo uare on remote repo
 
@@ -68,15 +72,19 @@ git branch // to see what branch you are currently locally at
 
 git branch feature-a //craete a branch
 
+git branch -d to-delete // delete branch
+
 git checkout feature-a //switch branches
 
 git checkout - //go back to last branch
 
-git push -u origin feature-a // create branch and push 
-
 git checkout -b to-delete // create branch and swith to that branch
 
-git branch -d to-delete // delete branch
+
+
+
+
+
 
 
 
