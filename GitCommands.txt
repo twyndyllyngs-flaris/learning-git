@@ -74,6 +74,10 @@ git checkout - //go back to last branch
 
 git push -u origin feature-a // create branch and push 
 
+git checkout -b to-delete // create branch and swith to that branch
+
+git branch -d to-delete // delete branch
+
 
 
 
