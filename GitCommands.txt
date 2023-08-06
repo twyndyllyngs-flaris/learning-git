@@ -28,6 +28,8 @@ git commit -m "learnig git xd"
 
 git log // see version changes 
 
+git log --oneline // simplified version of log
+
 git show 2b17ad3281ffb43ff16c8f3f216fd294b51a1889 // see fuke changes in version cchagnes
 
 vi index.txt // open file // press esc then :wq to save
@@ -78,8 +80,11 @@ git checkout feature-a //switch branches
 
 git checkout - //go back to last branch
 
-<<<<<<< HEAD
 git checkout -b to-delete // create branch and swith to that brancha
+
+git rebase --rebase, git rebase -r origin main //
+
+git rebase --continue
 
 
 
