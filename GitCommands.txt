@@ -86,20 +86,9 @@ git rebase --rebase, git rebase -r origin main //
 
 git rebase --continue
 
-
-
-
-
-
-=======
 git checkout -b to-delete // create branch and swith to that branch
 
-
-
-
-
-
->>>>>>> c4789f72612b92e4722fe2e8a66383cadd9ec4d8
+c4789f72612b92e4722fe2e8a66383cadd9ec4d8
 
 
 
