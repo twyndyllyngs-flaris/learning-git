@@ -42,7 +42,7 @@ git restore // discard changes in working directory
 
 git commit --amend -m "new description"
 
-start gitcommands.txt // open filea
+start gitcommands.txt // open file
 
 
 
@@ -88,7 +88,6 @@ git rebase --continue
 
 git checkout -b to-delete // create branch and swith to that branch
 
-c4789f72612b92e4722fe2e8a66383cadd9ec4d8
 
 
 
